@@ -1,0 +1,172 @@
+/*Colores del header en gradiente e imagen redonda*/
+header {
+    
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
+background: linear-gradient(45deg,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+    color:rgba(25, 65, 16, 0.993);
+    text-align: center;
+    padding: 20 px;
+}
+
+.home profile-image {
+    border-radius: 50%;
+    margin-top: 10 px;
+    box-shadow: 0 4 px 8 px rgba(0, 0, 0, 0.1);
+    max-width: 200 px;
+
+    width: 100%;
+    height: auto;
+}
+
+.imagen-redonda{
+    border-radius: 50%;
+    width: 100 px;
+    height: 100 px;
+
+}
+
+.sobre_mi h2 {
+    text-align:center;
+    color: rgba(25, 65, 16, 0.993);
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para el responsive*/
+}
+
+.sobre_mi{
+    /*display: flex;*/
+    text-align: center;   
+    flex-direction: row;   
+    color:rgb(27, 3, 27); /*Letras*/
+    padding: 20px 80px;
+    margin: 0px;
+}
+
+#habilidades ul{
+    list-style:none;
+}
+
+#habilidades ul li{
+    float:inline-start;
+    padding:5px
+}
+
+#habilidades a{
+    
+    color:black;
+    background-color:rgb(24, 133, 24);
+    text-decoration: none;
+    text-align: center;
+    display:inline-block;
+    /*el padding le da el grosor a las cajitas del menú*/
+    padding: 12px 26px;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    /*font-size: 18px*/
+}
+
+/*Barra entre el menú*/
+.barra{
+    color:black;
+    padding: 0 px;
+}
+
+/*Para que cambie de color el menú cuando se posa el cursor*/
+#habilidades a:hover {
+    color:indigo;
+    background-color:#f8b500;
+}
+
+
+
+/*#imageneshabilidades */
+.column { 
+    display:inline-block;
+    place-items:center;
+    justify-items:center;
+    margin:20 px;
+    padding: 30 px;
+
+}
+
+    
+.proyectos h2 h3{
+    display: inline-block;
+    color: rgba(3, 75, 6, 0.993);
+    text-align: center;
+
+   
+}
+.proyectos p{
+    justify-content: left;
+    text-align: left;
+    display: inline-block;
+
+}
+.proyectos{
+    text-decoration: none;
+    text-align:center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: darkgreen;
+
+
+}
+
+/*Colores de los subtítulos y posición*/
+.subtitulos{
+    text-align: left;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25 px;
+       
+}
+
+.imagen{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    box-sizing:content-box;
+  
+    display: inline-block;
+
+    }
+
+/*Posición de los datos finales de contacto y colores del footer*/
+footer{
+    text-align: center;
+    
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
+background: linear-gradient(45deg,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+    color: rgba(20, 71, 27, 0.897); /*Letras Negras*/
+    padding: 10px 0;
+    margin: 0px;
+}
+
+/*Alineado de los íconos de facebook, Insta, LinkedIn y Twitter*/
+
+.imagen{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    box-sizing:content-box;
+   /* background-color: #f8b500;*/
+    min-height: 5vh;
+    min-width: 8vh;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    
+}
+
